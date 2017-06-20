@@ -532,7 +532,7 @@ AppModule = __decorate([
 var appRoutes = [
     {
         path: '',
-        redirectTo: 'index',
+        redirectTo: '/index',
         pathMatch: 'full'
     },
     {
@@ -556,7 +556,7 @@ var appRoutes = [
         component: __WEBPACK_IMPORTED_MODULE_3__components_page_not_found_page_not_found_component__["a" /* PageNotFoundComponent */]
     }
 ];
-var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(appRoutes);
+var routing = __WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(appRoutes, { useHash: true });
 //# sourceMappingURL=app.routing.js.map
 
 /***/ }),
